@@ -1,0 +1,47 @@
+.container {
+    margin-top: 6rem;
+}
+.common-heading{
+    font-size:22px !important ;
+    /* color:#01387e!important ; */
+    padding:.400em .75em;
+
+}
+    .contact-form {
+      max-width: 50rem;
+      margin: auto;
+      
+
+    }
+    input{
+        height: 2.5rem;
+        padding:.375em .75em;
+        border:1px solid #ccc;
+        border-radius:4px;
+        
+    }
+    textarea{
+        border:1px solid #ccc;
+        border-radius:4px;
+        height:10rem ;
+        padding:.375em .75em;
+
+    }
+      .contact-inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        
+      }
+        input[type="submit"] {
+          cursor: pointer;
+          transition: all 0.2s;
+          height: 45px;
+          width: 110px;
+          border-radius: 7px;
+          background-color: #76e2f3;
+          border: 2px solid #17a2b8;
+        }
+        input[type="submit"]:hover{
+            background:#17a2b8 
+        }

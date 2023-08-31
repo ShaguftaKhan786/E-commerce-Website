@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    background-color: #fff;
+    overflow: hidden;
+
+    box-shadow: 20px 0 20px;  }
+  /* .nav .active {
+    font-weight: 800;
+  } */
+  .nav a {
+    float: left;
+    display: block;
+    color: white; 
+    text-align: center;
+    padding: 10px; 
+    text-decoration: none;
+    /* box-shadow: 20px 0 20px;
+    border-radius: 7px; */
+  }
+   span:nth-child(2){
+    color: red;
+    font-weight: bold;
+    border-radius: 5px;
+    position: relative;
+    top: -15px;
+
+}
+
+.reg{
+  /* margin-left:-14%; */
+  text-align: right;
+  font-size: 1rem;
+}
+.ripple {
+height: 36px;
+width: 90px;
+}
+.navbar{
+  border-radius: 9px;
+}
